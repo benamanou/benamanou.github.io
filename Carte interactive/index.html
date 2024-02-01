@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Carte interactive</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+	integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+	crossorigin=""/>
+</head>
+<body>
+	<header>
+		<img class="Logo" src="./images/Logo 3 2.png" alt="Logo">
+		<nav id="nav">
+		<ul class="leftnav"><li><a>Accueil</a></li>
+			<li><div class="search-container">
+				<form action="/action_page.php">
+				  <input type="text" placeholder="Search.." name="search">
+				  <button type="submit">Recherchez</button>
+				</form>
+			  </div></li>
+			  <li><a class="active">Carte</a></li>
+			<li><a>Marché</a></li></ul>
+			<ul id="rightnav"><li><a>Actualités</a></li>
+			<li><a>Profil</a></li>
+		</ul></nav>
+	</header>
+	<main>
+		<div id="menu"></div>
+		<div id="map"></div>
+	</main>
+
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+	integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+	crossorigin=""></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
