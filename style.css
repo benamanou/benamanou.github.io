@@ -60,7 +60,7 @@ b{
     background-image: url("./images/pexels-min-an-853168 1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 1100px;
 }
 header {
     width:100%;
@@ -110,4 +110,16 @@ ul a {
 
 .confid p {
     font-size: xx-small;
+}
+
+.newsletter {
+    display: flex;
+    background-color: green;
+    padding: 20px 50px;
+
+    
+}
+form button {
+display: flex;
+
 }
