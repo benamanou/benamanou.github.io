@@ -12,28 +12,28 @@
 <body>
 	<header>
 		<img class="Logo" src="./images/Logo 3 2.png" alt="Logo">
-		<nav id="nav">
-		<ul class="leftnav"><li><a>Accueil</a></li>
+		<nav class="container">
+		<ul class="leftnav">
+			<li><a>Accueil</a></li>
+			<li><a class="active">Carte</a></li>
 			<li><div class="search-container">
 				<form action="/action_page.php">
-				  <input type="text" placeholder="Search.." name="search">
-				  <button type="submit">Recherchez</button>
-				</form>
-			  </div></li>
-			  <li><a class="active">Carte</a></li>
-			<li><a>Marché</a></li></ul>
-			<ul id="rightnav"><li><a>Actualités</a></li>
-			<li><a>Profil</a></li>
+				  <input type="text" placeholder="Indiquez votre ville..." name="search">
+				 	<button type="submit">Recherche</button></form></div></li></ul>
+		<ul class="rightnav">
+					<li><a>Marché</a></li>
+			<li><a>Actualités</a></li>
+			<li><a >Profil</a></li>
 		</ul></nav>
 	</header>
 	<main>
-		<div id="menu"></div>
 		<div id="map"></div>
 	</main>
 
 	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
 	integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
 	crossorigin=""></script>
+	<script src="https://unpkg.com/leaflet-providers@latest/leaflet-providers.js"></script>
 	<script src="script.js"></script>
 </body>
 

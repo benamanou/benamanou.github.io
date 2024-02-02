@@ -5,12 +5,14 @@ let mapOptions = {
 
 let map = new L.map('map' , mapOptions);
 
-let layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+let layer = new L.TileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png');
 map.addLayer(layer);
+
+L.tileLayer.provider('CartoDB.Voyager').addTo(map);
 
 let customIcon = {
   iconUrl:"https://img.icons8.com/external-kmg-design-outline-color-kmg-design/32/external-pin-maps-navigation-kmg-design-outline-color-kmg-design-1.png",
-  iconSize:[50,50]
+  iconSize:[45,45]
  }
 
 let myIcon = L.icon(customIcon);
