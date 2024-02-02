@@ -20,71 +20,76 @@
   #root, #__next {
     isolation: isolate;
   }
-  /*
- .baniere{
-    height: 32px;
-    padding: 4px 120px 4px 450px;
-    gap: 306px;*
-    background: var(--Neutral-Black, #000);
-    position: absolute;
-    max-width: 1440px;
-    margin: 0 auto;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-#text_baniere{
-    color: var(--Neutral-White, #FFF);
-    text-align: center;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px; 
-    letter-spacing: -0.28px;
-}
-b{
-    color: var(--Yellow-500, #E5CB61);
-}*/
 
 *{
     margin:0;
     padding:0;
-    list-style: none;
-    text-decoration: none;
     font-family: proxima-nova, sans serif
     }
+
+header {
+    width:100%;
+    
+
+}
     .container {
     max-width: 100%;
     margin: 0;
     position: relative;
     background-image: url("./images/pexels-min-an-853168 1.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 900px;
-}
-header {
-    width:100%;
-
+    background-size:cover;
+    max-width: 100%;
+    height: 1000px
+    
 }
     nav{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        margin: 0 10%;
+        
+    }
+        .text_logo {
+            float: left;
+        }
+        .icon_and_button {
+            float: right;
+            align-items: center; 
+        }
+        #profilicon{
+            height: 50px;
+            padding-top: 40px;
+        }
+        #login{
+            height: 50px;
+            color: white;
+                background-color: green;
+        }
+
+    .paraglogo{
+        margin: auto;
+        width: 50%;
         text-align: center;
     }
-    .text_logo {
-    float: left;
-    }
-    .icon_and_button {
-    
 
-    }
-    .logo{
-    justify-content: center;
-}
-    #login{
-    color: white;
-    background-color: green;
-}
+        #citation1{
+        
+
+        }
+        #logohead {
+
+        }
+        #citation2{
+
+        }
+        #CTA{
+
+        }
+        #slogan{
+
+        }
+
 .carte-inter {
     display: flex;
     justify-content: first baseline;    
