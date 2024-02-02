@@ -1,4 +1,26 @@
- /*
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  /*
  .baniere{
     height: 32px;
     padding: 4px 120px 4px 450px;
@@ -30,36 +52,38 @@ b{
     list-style: none;
     text-decoration: none;
     font-family: proxima-nova, sans serif
-    scroll-behavior: ;
     }
-.container {
-    max-width: 1110px;
-    margin: 0 auto;
+    .container {
+    max-width: 100%;
+    margin: 0;
     position: relative;
     background-image: url("./images/pexels-min-an-853168 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
 }
-.navigation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.paraglogo{
-    display: flex;
-    flex-direction: column;
+header {
+    width:100%;
 
 }
-.logo{
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .text_logo {
+    float: left;
+    }
+    .icon_and_button {
+    
+
+    }
+    .logo{
     justify-content: center;
 }
-#login{
+    #login{
     color: white;
     background-color: green;
-}
-#img_background{
-    position: absolute;
-    top: 0;
-    left: 0;
-
 }
 .carte-inter {
     display: flex;
@@ -75,13 +99,7 @@ b{
     align-items: center;
     gap: 10px;
 }
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    
-}
+
 ul a {
     text-decoration: none;
 }
