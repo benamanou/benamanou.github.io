@@ -8,9 +8,6 @@
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
   }
-  img, picture, video, canvas, svg {
-    max-width: 100%;
-  }
   input, button, textarea, select {
     font: inherit;
   }
@@ -23,13 +20,13 @@
 
 
 *{
-    margin:0;
-    padding:0;
+   
     font-family: proxima-nova, sans serif
     }
 
 header {
     width:100%;
+   ;
     
 
 }
@@ -50,47 +47,73 @@ header {
         margin: 0 10%;
         
     }
+    .navheader{
+        text-align: center;
+        align-items: center;
+     }
+
         .text_logo {
             float: left;
+            align-items: center;
+            text-align: center;
+            padding-top: 15px;
         }
         .icon_and_button {
             float: right;
-            align-items: center; 
+            text-align: center;
+             
         }
         #profilicon{
-            height: 50px;
-            padding-top: 40px;
+            
         }
         #login{
-            height: 50px;
+            font-size: 140%;
             color: white;
-                background-color: green;
+            background-color: rgb(43, 196, 43);
+            border-radius: 50%;
+            padding: 30px, 20px;
         }
 
     .paraglogo{
-        margin: auto;
-        width: 50%;
-        text-align: center;
-    }
-
-        #citation1{
         
+        text-align: center; 
+        color: white;
+    }
+        #citation1{
+            margin-top: 2%;
+            font-weight: lighter;
+            font-size: 120%;
+            letter-spacing: 4px;
 
         }
-        #logohead {
-
+        .logohead {
+            margin: 20px;
         }
         #citation2{
-
+            margin: 50px, 10px;
+            font-size: 150%;
+            text-align: center;
+            font-weight: 500;
+            letter-spacing: 3px;
         }
         #CTA{
+            margin-top: 100px;
+            color: white;
+            background-color: red;
+            font-size: 300%;
+            padding : 10px, 10px;
 
         }
         #slogan{
+            margin-top: 60px;
+            font-size: 500%;
+            font-weight: 300 ;
+            letter-spacing: 10px;
 
         }
 
 main {
+    margin: 0 5%;
     
 }        
 .carte-inter {
