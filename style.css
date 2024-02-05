@@ -216,9 +216,8 @@ main{
 
 
     #bouteille{
-        display: flex;
+
         background-image: url(/images/pexels-anna-shvets-5029862\ 1Bouteille\ dechet.png);
-        overflow: hidden;
         background-repeat: no-repeat;
         position: relative;
         background-repeat: no-repeat;
@@ -228,7 +227,13 @@ main{
     }
         #logohelp{
             height:350px;
-            margin-bottom: -20px;
+            margin-bottom: -50px;
+        }
+        .logoapp{
+            height : 200px
+        }
+        .appstore{
+            height: 60px
         }
 
 
