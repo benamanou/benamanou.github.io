@@ -17,11 +17,10 @@
   #root, #__next {
     isolation: isolate;
   }
-
+/* Colors : FC101F (red) 1E247D (blue) 4DA01D (green) */
 
 *{
-   
-    font-family: proxima-nova, sans serif
+    font-family: Lato;
     }
 
 header {
@@ -32,7 +31,7 @@ header {
 }
     .container {
     max-width: 100%;
-    margin: 0;
+    margin: 0,0;
     position: relative;
     background-image: url("./images/pexels-min-an-853168 1.png");
     background-repeat: no-repeat;
@@ -63,13 +62,10 @@ header {
             text-align: center;
              
         }
-        #profilicon{
-            
-        }
         #login{
             font-size: 140%;
             color: white;
-            background-color: rgb(43, 196, 43);
+            background-color: rgba(0, 0, 0, 0);
             border-radius: 50%;
             padding: 30px, 20px;
         }
@@ -77,11 +73,11 @@ header {
     .paraglogo{
         
         text-align: center; 
-        color: white;
+        color: rgb(228, 228, 228);
     }
         #citation1{
             margin-top: 2%;
-            font-weight: lighter;
+            font-weight: 300;
             font-size: 120%;
             letter-spacing: 4px;
 
@@ -92,38 +88,89 @@ header {
         #citation2{
             margin: 50px, 10px;
             font-size: 150%;
+            font-weight: 600;
             text-align: center;
             font-weight: 500;
             letter-spacing: 3px;
+            line-height: 2;
+            text-shadow: #000000;
         }
         #CTA{
-            margin-top: 100px;
-            color: white;
+            margin-top: 70px;
+            color: rgb(255, 255, 255);
             background-color: red;
             font-size: 300%;
             padding : 10px, 10px;
+            border-radius: 50%;
 
         }
         #slogan{
-            margin-top: 60px;
+            margin-top: 30px;
             font-size: 500%;
-            font-weight: 300 ;
+            font-weight: 400 ;
             letter-spacing: 10px;
-
         }
+main{
+    margin: auto,10%
+}
+    #section-carte{
+    display: inline-block;
+    margin: auto,10%;
+    justify-content: center;
+    }
+        .carte-titre {
+            display: flex;
+            font-size:450%;
+            justify-items:center;
+            color: #FC101F;
+            letter-spacing: 30px;
+            justify-content: space-around;
+            margin-bottom: 3%;
+        }
+            #shape{
+                position:absolute;
+                left: 10px;
+                margin: 25px,35px;
+                z-index: -1;
+            }
+            #carte{
+                float: left;
+                margin: 40px,20px,20px,30px;
+            }
 
-main {
-    margin: 0 5%;
-    
-}        
-.carte-inter {
-    display: flex;
-    justify-content: first baseline;    
-    align-items: flex-start;
-}
-#carte{
-    font-size: 1.5rem;
-}
+            #inter{
+            float: right;
+                margin-top: 100px;
+            }
+            #cartenav {
+                position:static;
+                float:right;
+                height :800px;
+            }
+            #intercarte{
+                
+                display: inline-flex;
+            }
+            #textecarte{
+                margin-top: 3%;
+                font-size: 400%;
+                display: block;
+                text-align: center;
+            }
+            #inscription{
+            
+            }
+        #champs-action{
+            display: flex;
+            margin: auto,10%;
+        }
+            #shap{
+                position: absolute;
+                z-index :-1;
+                left: 50%;
+                
+            }
+
 .foot-header{
     display: flex;
     justify-content: center;
