@@ -31,9 +31,10 @@ header {
 }
     .container {
     max-width: 100%;
+    background-image: url("./images/pexels-min-an-853168 1.png");
     margin: 0,0;
     position: relative;
-    background-image: url("./images/pexels-min-an-853168 1.png");
+    
     background-repeat: no-repeat;
     background-size:cover;
     max-width: 100%;
@@ -94,14 +95,14 @@ header {
             letter-spacing: 3px;
             line-height: 2;
             text-shadow: #000000;
-        }
-        #CTA{
+        ;}
+        .CTA{
             margin-top: 70px;
             color: rgb(255, 255, 255);
             background-color: red;
             font-size: 300%;
             padding : 10px, 10px;
-            border-radius: 50%;
+            border-radius: 40%;
 
         }
         #slogan{
@@ -111,31 +112,34 @@ header {
             letter-spacing: 10px;
         }
 main{
+    width:100%;
     margin: auto,10%
 }
-    #section-carte{
-    display: inline-block;
-    margin: auto,10%;
-    justify-content: center;
+    #section-carte{ 
+    margin: 5%,10%;
+    justify-items: center;
     }
         .carte-titre {
             display: flex;
             font-size:450%;
             justify-items:center;
             color: #FC101F;
-            letter-spacing: 30px;
+            letter-spacing: 40px;
+            font-weight: 800;
             justify-content: space-around;
             margin-bottom: 3%;
         }
             #shape{
                 position:absolute;
-                left: 10px;
-                margin: 25px,35px;
-                z-index: -1;
+                left: 0;
+                padding: 50px,-100px,0,0;
+                z-index: -2;
             }
             #carte{
                 float: left;
-                margin: 40px,20px,20px,30px;
+                margin: 40px,20px,20px,45px;
+                padding-left: 10px;
+                padding-top: 13px;
             }
 
             #inter{
@@ -148,28 +152,85 @@ main{
                 height :800px;
             }
             #intercarte{
-                
-                display: inline-flex;
+                display: flex;
+                justify-content: center;
+                margin-left: 10%;
+             
             }
             #textecarte{
                 margin-top: 3%;
                 font-size: 400%;
-                display: block;
+               
+                flex-direction: column;
                 text-align: center;
+                color: #4DA01D;
             }
             #inscription{
-            
+              background-color: #FC101F;
+              color: white;
+              font-size: smaller;
+
             }
-        #champs-action{
+        #actionbox{
             display: flex;
             margin: auto,10%;
         }
+        #actionimg{
+            display: flex;
+            margin-left: 10%;
+
+        }
+            #imgvolont{
+                z-index: 0;
+                height: 600px;
+
+            }
             #shap{
                 position: absolute;
                 z-index :-1;
-                left: 50%;
-                
+                left: 40%;   
             }
+            #volonbutton{
+                position:absolute;
+                font-size: x-small;
+                right: 80%;
+                z-index: 1;
+            }
+
+
+        #actionlist{
+            float: right;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+
+        }
+            #titreaction{
+                color: #FC101F;
+
+            }
+
+           #listeaction{
+
+           }
+
+
+    #bouteille{
+        display: flex;
+        background-image: url(/images/pexels-anna-shvets-5029862\ 1Bouteille\ dechet.png);
+        overflow: hidden;
+        background-repeat: no-repeat;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size:cover;
+        max-width: 100%;
+        height: 1000px
+    }
+        #logohelp{
+            height:350px;
+            margin-bottom: -20px;
+        }
+
 
 .foot-header{
     display: flex;
