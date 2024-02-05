@@ -116,8 +116,7 @@ main{
     margin: auto,10%
 }
     #section-carte{ 
-    margin: 5%,10%;
-    justify-items: center;
+
     }
         .carte-titre {
             display: flex;
@@ -126,7 +125,7 @@ main{
             color: #FC101F;
             letter-spacing: 40px;
             font-weight: 800;
-            justify-content: space-around;
+            justify-content: space-evenly;
             margin-bottom: 3%;
         }
             #shape{
@@ -144,12 +143,12 @@ main{
 
             #inter{
             float: right;
-                margin-top: 100px;
+                margin-top: 90px;
             }
             #cartenav {
                 position:static;
                 float:right;
-                height :800px;
+                height :700px;
             }
             #intercarte{
                 display: flex;
@@ -158,9 +157,8 @@ main{
              
             }
             #textecarte{
-                margin-top: 3%;
+                margin-top: 2%;
                 font-size: 400%;
-               
                 flex-direction: column;
                 text-align: center;
                 color: #4DA01D;
@@ -173,7 +171,7 @@ main{
             }
         #actionbox{
             display: flex;
-            margin: auto,10%;
+            height: 800px;
         }
         #actionimg{
             display: flex;
@@ -182,7 +180,7 @@ main{
         }
             #imgvolont{
                 z-index: 0;
-                height: 600px;
+                height: 800px;
 
             }
             #shap{
@@ -216,7 +214,6 @@ main{
 
 
     #bouteille{
-
         background-image: url(/images/pexels-anna-shvets-5029862\ 1Bouteille\ dechet.png);
         background-repeat: no-repeat;
         position: relative;
@@ -230,14 +227,56 @@ main{
             margin-bottom: -50px;
         }
         .logoapp{
-            height : 200px
+            margin-top: 3%;
+            margin-left: 5%;
+            height : 240px
+        }
+        #textapp{
+            margin-left: 8%;
+            color: white;
+            text-align: left;
+            font-size: 400%;
+            font-weight: 300 ;
+            letter-spacing: 20px;
         }
         .appstore{
-            height: 60px
+            margin-top: 3%;
+            margin-left: 5%;
+            left: 10%;
+            height: 150px
         }
+    
+    #retours{
+        
+        height: 900px;
+    }
+        #contain1{
+            display: flex;
+            justify-content: space-evenly;
 
+        }
+            #carlos{
 
+            }
+            #marie {
+
+            }
+            #aziza{
+
+            }
+            .bulle{
+                position: absolute;
+            }
+        #contain2{
+        justify-content:baseline;
+            
+        }
+            #worldlogo{
+                height: 110px;
+                text-align: center;
+            }
 .foot-header{
+    margin: auto, 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -248,8 +287,7 @@ ul a {
     text-decoration: none;
 }
 .foot-logo{
-    width:  500px;
-    height: 300px;
+    height: 200px;
 }
 
 .confid p {
