@@ -7,6 +7,7 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    background-color: rgba(192, 224, 162, 0.48);
   }
   input, button, textarea, select {
     font: inherit;
@@ -236,8 +237,9 @@ main{
             color: white;
             text-align: left;
             font-size: 400%;
-            font-weight: 300 ;
+            font-weight: 300 bold ;
             letter-spacing: 20px;
+            text-transform: capitalize;
         }
         .appstore{
             margin-top: 3%;
@@ -252,9 +254,10 @@ main{
             display: flex;
             margin-top: 5%;
             justify-content: space-evenly;
-
         }
+        
             #carlos{
+                
 
             }
             #marie {
@@ -272,7 +275,7 @@ main{
         }
             #worldlogo{
                 height: 110px;
-                text-align: center;
+                justify-items: center;
             }
 
 .newsletter {
@@ -300,7 +303,7 @@ form{
 .foot-header{
     margin: auto, 10%;
     display: flex;
-    justify-content: first baseline;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -313,11 +316,11 @@ a{
 }
 .footlist{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-around ;
+    align-items: start;
     gap: 10px;
+    
 }
-
 
 .foot-logo{
     height: 200px;
@@ -325,4 +328,12 @@ a{
 
 .confid p {
     font-size: xx-small;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px){
+    body
+}
+@media only screen and (min-width: 600px){
+    body
 }

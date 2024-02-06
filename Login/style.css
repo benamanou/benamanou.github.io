@@ -1,0 +1,72 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+/* Colors : FC101F (red) 1E247D (blue) 4DA01D (green) */
+
+*{
+    font-family: Lato;
+}
+    div {
+        display: block;
+    }
+    .container {
+        max-width: 100%;
+        background-image: url("./images/pexels-julia-m-cameron-6994891.jpg");
+        position: relative;
+        background-repeat: no-repeat;
+        background-size:cover;
+        max-width: 100%;
+        height: 980px;
+    }
+        .board, .board label {
+            color: #fff;
+            font-size: 150%;
+        }
+        
+        .board {
+            clear: both;
+            overflow: auto;
+            width: 100%;
+            padding: 250px 450px;
+            text-shadow: 1px 1px 4px rgba(0,0,0,.6);
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+            .form-group {
+                cursor: pointer;
+                justify-content: center;
+                font-size: large
+                ;
+
+            }
+            .input-group {
+                opacity: 75%;
+                font-size:smaller;
+                padding-right: 150px;
+            }
+            button {
+                background-color: #fc101f;
+                color: white;
+                border-radius: 35%;
+                font-size: x-large;
+                margin-left: 150px ;
+                margin-top: 35px;
+                letter-spacing: 8px;
+            }
