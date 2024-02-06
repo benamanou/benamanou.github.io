@@ -83,14 +83,17 @@
             <div class="inform">
                 <h4>Restez informé.e</h4>
                 <p>Inscrivez-vous pour rester informé.e de nos actions et projets.
-                    Vous pouvez vous désincrire à tout moment.<a href="">Politique de confidentialité</a>.
+                    Vous pouvez vous désincrire à tout moment. <a href="">Politique de confidentialité</a>.
                 </p>
             </div>
             <form>
-                <input type="text" placeholder="Prénom*" >
-                <input type="text" placeholder="Nom*">
-                <input type="email" placeholder="Adresse e-mail*">
-                <input type="text" placeholder="Date de naissance*">
+                <div class="formdisp">
+                    <input type="text" placeholder="Prénom*" >
+                    <input type="text" placeholder="Nom*">
+                    <input type="email" placeholder="Adresse e-mail*">
+                    <input type="text" placeholder="Date de naissance*">
+                </div>
+                    
                 <button type="submit" id="enregistrer">ENREGISTRER</button>
               </form>
         </section>
@@ -98,7 +101,7 @@
     <footer>
         <div class="foot-header">
             <img class="foot-logo" src="./images/Logo 3 1.png" alt="logo">
-            <nav>
+            <span class="footlist">
                 <ul>
                     <li><h3>HELPSPLAN</h3></li>
                     <li><a href="./Carte interactive/index.html">Carte interactive</a></li>
@@ -107,21 +110,21 @@
                     <li><a href="">Mon profil</a></li>
                 </ul>
                 <ul>
-                    <li> <h3>S'INFORMER</h3></li>
+                    <h3>S'INFORMER</h3>
                     <li><a href="">Liste de partenaires</a></li>
                     <li><a href="">Faites un don</a></li>
                     <li><a href="">Devenez bénévole</a></li>
                     <li><a href="">Wiki</a></li>
                 </ul>
-                <ul>
-                    <li><h3>A PROPOS</h3></li>
+                <ul id="apropos">
+                    <h3>A PROPOS</h3>
                     <li><a href="">Qui sommes-nous ?</a></li>
                     <li><a href="">Suggestions/Feedback</a></li>
                     <li><a href="">Foire aux questions</a></li>
                     <li><a href="">Soutenez-nous</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
-            </nav>
+            </span>
         </div>
         <div class="footer-media">
             <h2>SUIVEZ-NOUS SUR</h2>
