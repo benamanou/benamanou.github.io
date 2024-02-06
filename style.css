@@ -17,11 +17,10 @@
   #root, #__next {
     isolation: isolate;
   }
-
+/* Colors : FC101F (red) 1E247D (blue) 4DA01D (green) */
 
 *{
-   
-    font-family: proxima-nova, sans serif
+    font-family: Lato;
     }
 
 header {
@@ -32,9 +31,10 @@ header {
 }
     .container {
     max-width: 100%;
-    margin: 0;
-    position: relative;
     background-image: url("./images/pexels-min-an-853168 1.png");
+    margin: 0,0;
+    position: relative;
+    
     background-repeat: no-repeat;
     background-size:cover;
     max-width: 100%;
@@ -63,13 +63,10 @@ header {
             text-align: center;
              
         }
-        #profilicon{
-            
-        }
         #login{
             font-size: 140%;
             color: white;
-            background-color: rgb(43, 196, 43);
+            background-color: rgba(0, 0, 0, 0);
             border-radius: 50%;
             padding: 30px, 20px;
         }
@@ -77,11 +74,11 @@ header {
     .paraglogo{
         
         text-align: center; 
-        color: white;
+        color: rgb(228, 228, 228);
     }
         #citation1{
             margin-top: 2%;
-            font-weight: lighter;
+            font-weight: 300;
             font-size: 120%;
             letter-spacing: 4px;
 
@@ -92,38 +89,191 @@ header {
         #citation2{
             margin: 50px, 10px;
             font-size: 150%;
+            font-weight: 600;
             text-align: center;
             font-weight: 500;
             letter-spacing: 3px;
-        }
-        #CTA{
-            margin-top: 100px;
-            color: white;
+            line-height: 2;
+            text-shadow: #000000;
+        ;}
+        .CTA{
+            margin-top: 70px;
+            color: rgb(255, 255, 255);
             background-color: red;
             font-size: 300%;
             padding : 10px, 10px;
+            border-radius: 40%;
 
         }
         #slogan{
-            margin-top: 60px;
+            margin-top: 30px;
             font-size: 500%;
-            font-weight: 300 ;
+            font-weight: 400 ;
             letter-spacing: 10px;
+        }
+main{
+    width:100%;
+    margin: auto,10%
+}
+    #section-carte{ 
+
+    }
+        .carte-titre {
+            display: flex;
+            font-size:450%;
+            justify-items:center;
+            color: #FC101F;
+            letter-spacing: 40px;
+            font-weight: 800;
+            justify-content: space-evenly;
+            margin-bottom: 3%;
+        }
+            #shape{
+                position:absolute;
+                left: 0;
+                padding: 50px,-100px,0,0;
+                z-index: -2;
+            }
+            #carte{
+                float: left;
+                margin: 40px,20px,20px,45px;
+                padding-left: 10px;
+                padding-top: 13px;
+            }
+
+            #inter{
+            float: right;
+                margin-top: 90px;
+            }
+            #cartenav {
+                position:static;
+                float:right;
+                height :700px;
+            }
+            #intercarte{
+                display: flex;
+                justify-content: center;
+                margin-left: 10%;
+             
+            }
+            #textecarte{
+                margin-top: 2%;
+                font-size: 400%;
+                flex-direction: column;
+                text-align: center;
+                color: #4DA01D;
+            }
+            #inscription{
+              background-color: #FC101F;
+              color: white;
+              font-size: smaller;
+
+            }
+        #actionbox{
+            display: flex;
+            height: 800px;
+        }
+        #actionimg{
+            display: flex;
+            margin-left: 10%;
 
         }
+            #imgvolont{
+                z-index: 0;
+                height: 800px;
 
-main {
-    margin: 0 5%;
-    
-}        
-.carte-inter {
-    display: flex;
-    justify-content: first baseline;    
-    align-items: flex-start;
-}
-#carte{
-    font-size: 1.5rem;
-}
+            }
+            #shap{
+                position: absolute;
+                z-index :-1;
+                left: 40%;   
+            }
+            #volonbutton{
+                position:absolute;
+                font-size: x-small;
+                right: 80%;
+                z-index: 1;
+            }
+
+
+        #actionlist{
+            float: right;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+
+        }
+            #titreaction{
+                color: #FC101F;
+
+            }
+
+           #listeaction{
+
+           }
+
+
+    #bouteille{
+        background-image: url(/images/pexels-anna-shvets-5029862\ 1Bouteille\ dechet.png);
+        background-repeat: no-repeat;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size:cover;
+        max-width: 100%;
+        height: 1000px
+    }
+        #logohelp{
+            height:350px;
+            margin-bottom: -50px;
+        }
+        .logoapp{
+            margin-top: 3%;
+            margin-left: 5%;
+            height : 240px
+        }
+        #textapp{
+            margin-left: 8%;
+            color: white;
+            text-align: left;
+            font-size: 400%;
+            font-weight: 300 ;
+            letter-spacing: 20px;
+        }
+        .appstore{
+            margin-top: 3%;
+            margin-left: 5%;
+            left: 10%;
+            height: 150px
+        }
+    #retours{
+        height: 900px;
+    }
+        #contain1{
+            display: flex;
+            margin-top: 5%;
+            justify-content: space-evenly;
+
+        }
+            #carlos{
+
+            }
+            #marie {
+
+            }
+            #aziza{
+
+            }
+            .bulle{
+                position: absolute;
+            }
+        #contain2{
+        justify-content:baseline;
+            
+        }
+            #worldlogo{
+                height: 110px;
+                text-align: center;
+            }
 
 .newsletter {
     display: flex;
@@ -148,6 +298,7 @@ form{
     margin-left: 100px;
 }
 .foot-header{
+    margin: auto, 10%;
     display: flex;
     justify-content: first baseline;
     align-items: center;
@@ -169,7 +320,6 @@ a{
 
 
 .foot-logo{
-    width:  400px;
     height: 200px;
 }
 

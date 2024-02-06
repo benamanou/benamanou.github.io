@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'accueil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,61 +29,63 @@
                     <p id="citation1">Redéfinissons les possibilités de l'altruisme digital, <b><i>par votre action</i></b> </p>
                     <div class="logohead"><img src="./images/Logo 3 1.png" alt="logo"></div>
                     <p id="citation2"><i>helpSplan redonne un sens humain aux réseaux sociaux en vous proposant des<br> solutions modernes, durables et engagées aux questions sociétales</i></p>
-                    <button id="CTA" type="submit">Rejoignez-nous</button>
+                    <button class="CTA" type="submit">Rejoignez-nous</button>
                     <h1 id="slogan"><i>Cartographions l'espoir</i></h1>
             </div>
         </section>
     </header>
     <main>
-        <section>
-            <div class="carte-inter">
-               <h2 id="carte">Carte </h2>
-               <h2>Interactive</h2>
-            </div>
-            <img src="./images/carte.png" alt="">
-            <p>Marquez, participez, partez !</p>
-            <p>Trouvez</p>
-            <button type="submit">Inscrivez-vous</button>
-        </section>
-        <section>
-           <h2>Nos champs
-            d'actions</h2>
-            <ul>
-                <li>Réseau social d'entraide</li>
-                <li>Carte collaborative</li>
-                <li>Marché de dons en ligne</li>
-                <li>Partenaires sociaux</li>
-                <li>Volontariat local</li>
-            </ul>
-            <img src="./images/pexels-julia-m-cameron-6994833 1.png" alt="">
-            <img src="./images/shape-020 1.png" alt="">
-            <img src="./images/Logo 3 1.png" alt="">
-            <img src="./images/pexels-anna-shvets-5029862 1Bouteille dechet.png" alt="">
-            <img src="./images/computer-17 1.png" alt="">
-            <img src="./images/ipad-4 1.png" alt="">
-            <p>Bientot
-                disponible</p>
-            <img src="./images/google-play-badge 1.png" alt="">
-        </section>
-        <section>
-            <img src="./images/Présentation Persona Profil Utilisateur Professionnel Dégradés en Bleu Clair et Blanc 1.png" alt="">
-            <img src="./images/Présentation Persona Profil Utilisateur Professionnel Dégradés en Bleu Clair et Blanc 2.png" alt="">
-            <img src="./images/Présentation Persona Profil Utilisateur Professionnel Dégradés en Bleu Clair et Blanc 3.png" alt="">
-            <img src="./images/chat-bubble-07 1.png" alt="">
-            <img src="./images/chat-bubble-07 2.png" alt="">
-            <img src="./images/chat-bubble-12 1.png" alt="">
-            <img src="./images/location-4 1.png" alt="">
-            <p>“ ” - Carlos, développeur</p>
-            <p>“” - Marie, assistante sociale</p>
-            <p>“” - Aziza, volontaire bénévole</p>
+        <section id="section-carte">
+            <div class="carte-titre">
+                <img id="shape" src="./images/shape-028 1.png" alt="shape">
+                    <h2 id="carte">Carte </h2>
+                    <h2 id="inter">Interactive</h2></div>
+            <div id="intercarte">
+                <div id="textecarte">
+                    <p>Marquez, participez, collaborez!</p>
+                    <p>Trouvez où et quand vous rendre utile</p>
+                    <a href="./Carte interactive/index.html"><button id="inscription" class="CTA" type="submit">Découvrez la carte !</button></a></div>
+                        <img id="cartenav" src="./images/carte.png" alt="carte"></div></section>
+        <section id="actionbox">
+            <div id="actionimg">
+                <img id="imgvolont" src="./images/pexels-julia-m-cameron-6994833 1.png" alt="">
+                <img id="shap" src="./images/shape-020 1.png" alt="">
+                        <button class="CTA" id="volonbutton" type="submit">Rejoignez-nous</button></div>
+            <div id="actionlist">
+                <h2 id="titreaction">Nos champs d'actions</h2>
+                    <ul id="listeaction">
+                        <li>Réseau social d'entraide</li>
+                        <li>Carte collaborative</li>
+                        <li>Marché de dons en ligne</li>
+                        <li>Partenaires sociaux</li>
+                        <li>Volontariat local</li></ul></div></section>
+        <section id="bouteille">
+                <img id="logohelp" src="./images/Logo 3 1.png" alt=""><br>
+                <img class="logoapp" src="./images/ipad-4 1.png" alt="">
+                <img class="logoapp" src="./images/computer-17 1.png" alt=""><br>
+                <p id="textapp">Bientot disponible</p><br>
+                <img class="appstore" src="./images/google-play-badge 1.png" alt="">
+                <img class="appstore" src="./images/Download_on_the_App_Store_Badge_FR_RGB_blk_100517 1.png" alt=""></section>
+        <section id="retours">
+            <div id="contain1">
+            <div id="carlos"><img src="./images/Présentation Persona Profil Utilisateur Professionnel Dégradés en Bleu Clair et Blanc 1.png" alt="">
+                <img class="bulle" src="./images/chat-bubble-07 1.png" alt="">
+                <p>“” - Carlos, développeur</p></div>
+            <div id="marie"><img src="./images/Présentation Persona Profil Utilisateur Professionnel Dégradés en Bleu Clair et Blanc 2.png" alt="">
+                <img class="bulle" src="./images/chat-bubble-07 2.png" alt="">
+                <p>“” - Marie, assistante sociale</p></div>
+            <div id="aziza"><img src="./images/Présentation Persona Profil Utilisateur Professionnel Dégradés en Bleu Clair et Blanc 3.png" alt="">
+                <img class="bulle" src="./images/chat-bubble-12 1.png" alt="">
+                <p>“” - Aziza, volontaire bénévole</p></div></div>
+            <div id="contain2"><img id="worldlogo" src="./images/location-4 1.png" alt=""></div>
         </section>
         <section class="newsletter">
-            <span class="inform">
+            <div class="inform">
                 <h4>Restez informé.e</h4>
                 <p>Inscrivez-vous pour rester informé.e de nos actions et projets.
                     Vous pouvez vous désincrire à tout moment. <a href="">Politique de confidentialité</a>.
                 </p>
-            </span>
+            </div>
             <form>
                 <div class="formdisp">
                     <input type="text" placeholder="Prénom*" >
@@ -98,8 +103,8 @@
             <img class="foot-logo" src="./images/Logo 3 1.png" alt="logo">
             <span class="footlist">
                 <ul>
-                    <h3>HELPSPLAN</h3>
-                    <li><a href="">Carte interactive</a></li>
+                    <li><h3>HELPSPLAN</h3></li>
+                    <li><a href="./Carte interactive/index.html">Carte interactive</a></li>
                     <li><a href="">Marché de dons</a></li>
                     <li><a href="">Communauté</a></li>
                     <li><a href="">Mon profil</a></li>
