@@ -22,6 +22,9 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+* {
+  font-family: proxima-nova, sans-serif;
+}
 
 header {
   width: 100%;
@@ -47,7 +50,7 @@ header {
       list-style-type: none;
     }
   
-    a {
+    header a {
       font-family: proxima-nova, sans-serif;
       background-color:#3e40d4 ;
       color: #ffffff ;
@@ -57,7 +60,7 @@ header {
       padding: 8px;
       font-weight: 700;
     }
-  li a:hover {
+  header li a:hover {
     color: #000000fd;
     font-weight: 900;
     cursor: pointer;
