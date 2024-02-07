@@ -1,0 +1,302 @@
+header {
+    background-color: green;
+    /* Couleur de fond */
+    color: white;
+    /* Couleur du texte */
+    padding: 10px;
+    /* Espacement intérieur */
+    text-align: center;
+    /* Centrer le contenu */
+    z-index: -1;
+}
+
+.logobox {
+    z-index: 2;
+    margin-bottom: 20px;
+    /* Espacement entre le logo et le titre */
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    text-align: left;
+    left: 0;
+    top: -85%;
+    width: 16%;
+    /* Largeur du logo */
+    height: auto;
+    /* Hauteur automatique pour conserver les proportions */
+    z-index: ;
+}
+
+body {
+    background-color: rgb(181, 212, 181);
+
+}
+
+.titre {
+    color: white;
+    font-size: 50px;
+    margin-top: 0;
+
+    /* Supprimer la marge supérieure du titre */
+}
+
+.banner-top {
+    height: 1000px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    background-image: url("./Imagehelpsplan/page2.png");
+    background-size: cover;
+}
+
+.banner-top-image {
+    object-fit: cover;
+
+}
+
+.button-container {
+    display: block;
+    top: 20px;
+}
+
+.bouton1 {
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    font-size: 40px;
+    display: block;
+    justify-content: center;
+    margin-bottom: 40px;
+
+
+}
+
+.bouton2 {
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    font-size: 40px;
+    display: block;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-left: 95px;
+
+}
+
+.container {
+    position: relative;
+    top: -30px;
+    background-color: green;
+    height: 80px;
+    margin: 0;
+}
+
+.container ul li {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 50px;
+    width: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.a1 {
+    position: relative;
+    left: 5.5cm;
+    top: -48px;
+}
+
+.a2 {
+    position: relative;
+    left: 12.5cm;
+    top: -48px;
+}
+
+.a3 {
+    position: relative;
+    left: 20cm;
+    top: -48px;
+}
+
+
+
+.container2 {
+
+    display: flex;
+    top: -20px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: green;
+}
+
+
+.item3 {
+    height: 269px
+}
+
+.item1 {
+    border: 10px solid red;
+}
+
+.item2 {
+    border: 10px solid red;
+}
+
+.item3 {
+
+    border: 10px solid red;
+}
+
+
+
+ul.children {
+    display: flex;
+    list-style: none;
+
+}
+
+.title1 {
+    position: relative;
+    top: -30px;
+    color: blue;
+    font-size: 65px;
+    text-align: center;
+
+}
+
+.title2 {
+    position: relative;
+    top: -60px;
+    color: blue;
+    font-size: 65px;
+    text-align: center;
+
+}
+
+.shape1 {
+    position: absolute;
+    left: 260px;
+    width: auto;
+}
+
+
+.carre {
+    position: relative;
+    z-index: 60;
+    top: -70px;
+    left: 10%;
+    width: auto;
+}
+
+.shape2 {
+    position: absolute;
+    right: 260px;
+    width: auto;
+}
+
+.element2 {
+    position: relative;
+    z-index: 60;
+    top: -70px;
+    left: 63%;
+    width: auto;
+}
+
+.news {
+    width: 23%;
+    position: relative;
+    top: -196px;
+    left: -15%;
+}
+
+.terre {
+    width: 25%;
+    position: relative;
+    top: -335px;
+    right: -15%;
+}
+
+.p1 {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: -273px;
+    right: -37%;
+
+}
+
+.actu {
+    color: red;
+    position: relative;
+    top: -175px;
+    right: -35%;
+
+}
+
+.bord {
+    width: 23%;
+    position: relative;
+    top: -185px;
+    right: -38%;
+}
+
+.tree {
+    width: 25%;
+    position: relative;
+    top: -335px;
+    left: -46%;
+}
+
+.projet {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: -270px;
+    right: -14%;
+
+}
+
+.partenaire {
+    color: red;
+    position: relative;
+    top: -175px;
+    right: -14%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: blue;
+}
+
+.form-t {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgba(241, 240, 214, 1);
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.button-b {
+    text-align: center;
+    margin-top: 20px;
+
+}
